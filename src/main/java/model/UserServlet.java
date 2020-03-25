@@ -9,10 +9,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/show")
+@WebServlet("/bla")
 public class UserServlet extends HttpServlet {
 
-    public static final String VIEW = "/show.jsp";
+    public static final String VIEW = "/showUser.jsp";
     getInfo user=new getInfo();
 
     @Override

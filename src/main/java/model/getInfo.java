@@ -11,12 +11,12 @@ public class getInfo {
 
         }
 
-        public getInfo(String name, String breed, String sex, String age) {
-            this.name = name;
-            this.breed = breed;
-            this.sex = sex;
-            this.age=age;
-        }
+//        public getInfo(String name, String breed, String sex, String age) {
+//            this.name = name;
+//            this.breed = breed;
+//            this.sex = sex;
+//            this.age=age;
+//        }
 
         public String getName() {
             return name;

@@ -9,17 +9,30 @@
 <html>
 <head>
     <title>Title</title>
+    <h1>შინაური ცხოველების სარეგისტრაციო ფორმა</h1>
 </head>
 <body>
-<h1>შინაური ცხოველების სარეგისტრაციო ფორმა</h1>
-<form action="show.jsp" method="post">
+
+<form action="/bla" method="post">
     <tr>
         <td>Name</td>
+        <br>
         <td><input name="name"/></td>
     </tr>
     <tr>
         <td>Breed</td>
+        <br>
         <td><input name="breed"/></td>
+    </tr>
+    <tr>
+        <td>Sex</td>
+        <br>
+        <td><input name="sex"/></td>
+    </tr>
+    <tr>
+        <td>Age</td>
+        <br>
+        <td><input name="age"/></td>
     </tr>
     </table>
     <input type="submit" value="რეგისტრაცია"/>
